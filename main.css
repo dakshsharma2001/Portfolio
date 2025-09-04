@@ -92,4 +92,13 @@ footer{
         margin: 5px 0;
         margin-left:30px;
     }
+
+    .backgroundVideo {
+        object-fit: cover;
+        height: 900px;
+    }
+
+    .home1 h2{
+        margin-top: 50px;
+    }
 }

@@ -368,7 +368,7 @@ nav ul li a:hover{
     }
     #navbar ul li {
       font-size: 0.95rem;
-      margin: 0.5px 0;
+      margin: 1px;
     }
     body, .experience-section, .projects-section, .skills-section, .contact-us, .form-contact-us {
       font-size: 0.95rem;
