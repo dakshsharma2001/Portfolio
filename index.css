@@ -135,11 +135,15 @@ nav ul li a:hover{
   text-align: center;
   cursor: pointer;
   transition: background 0.3s;
+  background-color: rgb(25, 240, 18);
+  color: #000000;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .skill-item:hover {
   background: #007bff;
-  color: #fff;
+  color: #000000;
   z-index: 2;
 }
 
