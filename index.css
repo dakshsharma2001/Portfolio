@@ -312,3 +312,67 @@ nav ul li a:hover{
     background-color: rgb(31, 89, 196);
     transition: background-color 0.3s ease; 
 }
+
+
+@media (max-width: 768px) {
+    .skills-circle {
+      width: 300px;
+      height: 300px;
+    }
+    .skill-item {
+      width: 90px;
+      height: 50px;
+      font-size: 0.8rem;
+    }
+    .skill-item:nth-child(1) { top: 0; left: 50%; transform: translate(-50%, 0);}
+    .skill-item:nth-child(2) { top: 55px; left: 80%; transform: translate(-50%, 0);}
+    .skill-item:nth-child(3) { top: 170px; left: 80%; transform: translate(-50%, 0);}
+    .skill-item:nth-child(4) { top: 250px; left: 50%; transform: translate(-50%, 0);}
+    .skill-item:nth-child(5) { top: 170px; left: 20%; transform: translate(-50%, 0);}
+    .skill-item:nth-child(6) { top: 55px; left: 20%; transform: translate(-50%, 0);}
+
+    
+
+    .experience-section, .projects-section {
+      padding: 40px 10px;
+    }
+
+    .experience-item, .projects-item {
+      padding: 16px 16px 16px 24px;
+    }
+
+    .experience-item h3, .projects-item h3 {
+      font-size: 1.1rem;
+    }
+
+    #submit, #reset {
+      width: 140px;
+      font-size: 0.9rem;
+      margin-left: 1.5rem;
+    }
+    
+    #id2{
+      width: 60px;
+      height: 60px;
+    }
+
+    #id1{
+      font-size: 15px;
+      margin-top: 45px; 
+    }
+
+    #navbar ul {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    #navbar ul li {
+      font-size: 0.95rem;
+      margin: 0.5px 0;
+    }
+    body, .experience-section, .projects-section, .skills-section, .contact-us, .form-contact-us {
+      font-size: 0.95rem;
+    }
+
+    
+}
